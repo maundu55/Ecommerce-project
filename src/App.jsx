@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 const App = () => {
   return (
-    <div className='text-3xl bg-amber-300'>App</div>
+    <div>
+      <Navbar />
+      <Hero />
+    </div>
   )
 }
 
